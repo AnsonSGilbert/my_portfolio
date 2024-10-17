@@ -26,8 +26,8 @@ menu_item.forEach((item) => {
 
 document.getElementById("Download").addEventListener("click", function() {
     const link = document.createElement("a");
-    link.href = "path/to/your/resume.pdf"; // Replace with the actual path to your PDF
-    link.download = "Resume.pdf"; // Optional: specify the download file name
+    link.href = "Anson_Gilbert_Resume.pdf"; // Replace with the actual path to your PDF
+    link.download = "Anson_Gilbert_Resume.pdf"; // Optional: specify the download file name
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
